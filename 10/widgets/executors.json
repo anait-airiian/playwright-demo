@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://anait-airiian.github.io/playwright-demo",
+  "buildOrder" : 10,
+  "buildName" : "GitHub Actions Run #2275218964",
+  "buildUrl" : "https://github.com/anait-airiian/playwright-demo/actions/runs/2275218964",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://anait-airiian.github.io/playwright-demo/10/"
+} ]
