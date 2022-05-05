@@ -1,9 +1,0 @@
-[ {
-  "buildOrder" : 10,
-  "reportUrl" : "https://anait-airiian.github.io/playwright-demo/10/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 25,
-    "retry" : 0
-  }
-} ]
