@@ -29,8 +29,10 @@ const config: PlaywrightTestConfig = {
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
-    ['junit', { outputFile: 'jUnit.xml'}],
-    [ 'html', {open: 'on-failure'}],
+    // ['junit', { outputFile: 'jUnit.xml'}],
+    // [ 'html', {open: 'on-failure'}],
+
+    ["allure-playwright"],
     ['list']
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
@@ -78,12 +80,12 @@ const config: PlaywrightTestConfig = {
     //     ...devices['Pixel 5'],
     //   },
     // },
-    {
-      name: 'Mobile Safari',
-      use: {
-        ...devices['iPhone 12'],
-      },
-    }
+    // {
+    //   name: 'Mobile Safari',
+    //   use: {
+    //     ...devices['iPhone 12'],
+    //   },
+    // }
 
 
     /* Test against branded browsers. */
